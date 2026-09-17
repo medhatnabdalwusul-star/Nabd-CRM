@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 180" width="100%" height="100%">
+  <!-- Background (optional when used on blue, but transparent by default for versatile embedding) -->
+  <rect width="420" height="180" rx="16" fill="#1b24f5"/>
+  
+  <!-- Right Icon: Neon Lime Squircle -->
+  <g transform="translate(260, 25)">
+    <!-- Lime rounded square -->
+    <rect width="130" height="130" rx="26" fill="#b8f712" />
+    
+    <!-- Pulse & Arrow in Electric Blue -->
+    <!-- Chevron '>' -->
+    <path 
+      d="M 28 50 L 52 65 L 28 80 L 18 70 L 32 65 L 18 60 Z" 
+      fill="#1b24f5" 
+    />
+    <!-- Arrow tip notch or small connector -->
+    <path 
+      d="M 54 65 L 59 62 L 59 68 Z" 
+      fill="#1b24f5" 
+    />
+    <!-- Pulse wave: line -> peak -> valley -> horizontal out -->
+    <path 
+      d="M 64 65 L 72 65 L 82 25 L 94 105 L 103 65 L 130 65" 
+      fill="none" 
+      stroke="#1b24f5" 
+      stroke-width="12" 
+      stroke-linecap="square" 
+      stroke-linejoin="miter" 
+    />
+  </g>
+
+  <!-- Left / Center Arabic Typography: "نبض الوصول" in pure white -->
+  <g fill="#ffffff">
+    <!-- Top Word: نبض -->
+    <text 
+      x="240" 
+      y="80" 
+      text-anchor="end" 
+      font-family="'Cairo', sans-serif" 
+      font-weight="900" 
+      font-size="62" 
+      letter-spacing="-1"
+    >نبض</text>
+
+    <!-- Bottom Word: الوصول -->
+    <text 
+      x="240" 
+      y="145" 
+      text-anchor="end" 
+      font-family="'Cairo', sans-serif" 
+      font-weight="900" 
+      font-size="62" 
+      letter-spacing="-1"
+    >الوصول</text>
+  </g>
+</svg>

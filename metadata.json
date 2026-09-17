@@ -1,0 +1,7 @@
+{
+  "name": "نبض الوصول - نظام إدارة الوكالة والعمليات",
+  "description": "منظومة رقمية متكاملة لوكالة نبض الوصول لإدارة العملاء، تقويم السوشيال ميديا، ومتابعة مهام التصميم والمحتوى لفريق العمل.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
